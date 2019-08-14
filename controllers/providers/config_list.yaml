@@ -1,0 +1,12 @@
+list: $/synoptica/product/models/provider/columns.yaml
+modelClass: Synoptica\Product\Models\Provider
+title: Providers
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'synoptica/product/providers/update/:id'

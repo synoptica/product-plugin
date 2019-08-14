@@ -1,0 +1,10 @@
+columns:
+    id:
+        label: ID
+        type: number
+        sortable: false
+    name:
+        label: Name
+        type: text
+        searchable: true
+        sortable: false

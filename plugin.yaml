@@ -1,0 +1,24 @@
+plugin:
+    name: 'synoptica.product::lang.plugin.name'
+    description: 'synoptica.product::lang.plugin.description'
+    author: Synoptica
+    icon: oc-icon-cube
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Products
+        url: synoptica/product/products
+        icon: icon-cubes
+        sideMenu:
+            side-menu-item:
+                label: Products
+                url: synoptica/product/products
+                icon: icon-cubes
+            side-menu-item2:
+                label: Types
+                url: synoptica/product/types
+                icon: icon-tags
+            side-menu-item3:
+                label: Providers
+                url: synoptica/product/providers
+                icon: icon-university

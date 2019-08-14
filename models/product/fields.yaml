@@ -1,0 +1,55 @@
+fields:
+    name:
+        label: Name
+        span: left
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    class:
+        label: Class
+        span: auto
+        type: text
+    descr:
+        label: Description
+        size: ''
+        span: full
+        type: textarea
+tabs:
+    fields:
+        price:
+            label: Price
+            span: auto
+            type: text
+            tab: Prices
+        price_reseller_a:
+            label: 'Price Reseller A'
+            span: auto
+            type: text
+            tab: Prices
+        price_reseller_b:
+            label: 'Price Reseller B'
+            span: auto
+            type: text
+            tab: Prices
+        price_reseller_c:
+            label: 'Price Reseller C'
+            span: auto
+            type: text
+            tab: Prices
+        providers:
+            context: [update, relationcontroller]
+            label: Providers
+            commentAbove: Manage Product Providers
+            type: partial
+            tab: Providers
+        photo:
+            label: Photo
+            span: full
+            mode: file
+            type: mediafinder
+            tab: Media

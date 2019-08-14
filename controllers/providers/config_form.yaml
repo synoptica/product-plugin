@@ -1,0 +1,10 @@
+name: Providers
+form: $/synoptica/product/models/provider/fields.yaml
+modelClass: Synoptica\Product\Models\Provider
+defaultRedirect: synoptica/product/providers
+create:
+    redirect: 'synoptica/product/providers/update/:id'
+    redirectClose: synoptica/product/providers
+update:
+    redirect: synoptica/product/providers
+    redirectClose: synoptica/product/providers

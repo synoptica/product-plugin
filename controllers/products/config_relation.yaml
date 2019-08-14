@@ -1,0 +1,13 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+providers:
+    label: Provider
+    view:
+        list: ~/plugins/synoptica/product/models/productproviderpivot/columns.yaml
+        showSearch: true
+    manage:
+        list: ~/plugins/synoptica/product/models/provider/columns.yaml
+    pivot:
+        form: ~/plugins/synoptica/product/models/productproviderpivot/fields.yaml

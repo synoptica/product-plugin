@@ -1,0 +1,10 @@
+name: Types
+form: $/synoptica/product/models/type/fields.yaml
+modelClass: Synoptica\Product\Models\Type
+defaultRedirect: synoptica/product/types
+create:
+    redirect: 'synoptica/product/types/update/:id'
+    redirectClose: synoptica/product/types
+update:
+    redirect: synoptica/product/types
+    redirectClose: synoptica/product/types

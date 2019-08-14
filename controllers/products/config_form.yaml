@@ -1,0 +1,10 @@
+name: Products
+form: $/synoptica/product/models/product/fields.yaml
+modelClass: Synoptica\Product\Models\Product
+defaultRedirect: synoptica/product/products
+create:
+    redirect: 'synoptica/product/products/update/:id'
+    redirectClose: synoptica/product/products
+update:
+    redirect: synoptica/product/products
+    redirectClose: synoptica/product/products

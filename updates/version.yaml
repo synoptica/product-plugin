@@ -1,0 +1,12 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table products_types'
+    - builder_table_create_products_types.php
+1.0.3:
+    - 'Created table products'
+    - builder_table_create_products.php
+1.0.4:
+    - 'Created table providers'
+    - builder_table_create_providers.php
+    - builder_table_create_products_providers.php

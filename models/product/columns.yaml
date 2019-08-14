@@ -1,0 +1,30 @@
+columns:
+    id:
+        label: ID
+        type: number
+    name:
+        label: Product
+        type: text
+        searchable: true
+        sortable: false
+    type_id:
+        label: Type
+        type: text
+        sortable: false
+        select: name
+        relation: type
+    price:
+        label: Price
+        type: number
+    price_reseller_a:
+        label: 'Price A'
+        type: number
+    price_reseller_b:
+        label: 'Price B'
+        type: number
+    price_reseller_c:
+        label: 'Price C'
+        type: number
+    cost:
+        label: Cost
+        type: number
